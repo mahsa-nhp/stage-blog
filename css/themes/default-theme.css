@@ -3,95 +3,95 @@ Template Design By MarkUps.
 Author URI : http://www.markups.io/
 ========================================*/
 a {
-  color: #378DB9;
+  color: #011926;
 }
 
 .navbar-fixed nav {
-  background-color: #378DB9;
+  background-color: #011926;
 }
 
 
 .side-nav li:hover{
-  background-color: #378DB9;  
+  background-color: #011926;  
 }
 .btn ,.btn-large{
-  background-color: #378DB9;
+  background-color: #011926;
 }
 .btn:hover, .btn-large:hover {
-  background-color: #378DB9;
+  background-color: #011926;
 }
 .home-title span{
-  color: #378DB9;
+  color: #003e5c;
 }
 .about-inner-right>h3{
-  color: #378DB9;
+  color: #011926;
 }
 .personal-information>h3{
-  color: #378DB9;
+  color: #011926;
 }
 .title{
-  color: #378DB9;
+  color: #011926;
 }
 
 .card-subtitle {
-  color: #378DB9;
+  color: #011926;
 }
 .portfolio-top{
-  background-color: #378DB9;
+  background-color: #011926;
 }
 .filter {
-  color: #378DB9;
+  color: #011926;
 }
 .filter:focus{
-  background-color: #378DB9;
+  background-color: #011926;
 }
 #portfolio-list .mix:hover > a::before {
-  background-color: #378DB9;
+  background-color: #011926;
 }
 .counter{
-  color: #378DB9;
+  color: #011926;
 }
 
 .pro-bar-container.color-wisteria {
-  border-color: #378DB9;
+  border-color: #011926;
 }
 
 .pro-bar.color-amethyst {
-  background-color: #378DB9;
+  background-color: #011926;
 }
 .call-to-about i{
-  color: #378DB9;
+  color: #011926;
 }
 
 .blog-post .card-action a{
-  color: #378DB9;
+  color: #011926;
 }
 
 .post-comment:hover{
-  color: #378DB9 !important;
+  color: #011926 !important;
 }
 
 .readmore-btn:hover{
-  background-color: #378DB9;
+  background-color: #011926;
 }
 #experience{
-  background-color: #378DB9;
+  background-color: #011926;
 }
 
 .card-title i {
-  color: #378DB9;
+  color: #011926;
 }
 .customNavigation i{
-  color: #378DB9;
+  color: #011926;
 }
 #testimonial{
-  background-color: #378DB9;  
+  background-color: #011926;  
 }
 .testimonial-content h3 {
-  color: #378DB9;
+  color: #011926;
 }
 .footer-top{
-  background-color:#378DB9; 
+  background-color:#011926; 
 }
 input[type="text"]:focus:not([readonly]) + label,
 input[type="password"]:focus:not([readonly]) + label,
@@ -104,7 +104,7 @@ input[type="tel"]:focus:not([readonly]) + label,
 input[type="number"]:focus:not([readonly]) + label,
 input[type="search"]:focus:not([readonly]) + label,
 textarea.materialize-textarea:focus:not([readonly]) + label {
-  color: #378DB9;
+  color: #011926;
 }
 input[type="text"]:focus:not([readonly]),
 input[type="password"]:focus:not([readonly]),
@@ -117,63 +117,63 @@ input[type="tel"]:focus:not([readonly]),
 input[type="number"]:focus:not([readonly]),
 input[type="search"]:focus:not([readonly]),
 textarea.materialize-textarea:focus:not([readonly]) {
-  border-bottom: 1px solid #378DB9;
-  box-shadow: 0 1px 0 0 #378DB9;
+  border-bottom: 1px solid #011926;
+  box-shadow: 0 1px 0 0 #011926;
 }
 .submit-btn{
-  color: #378DB9;  
+  color: #011926;  
 }
 .submit-btn:hover,
 .submit-btn:focus{
-  background-color: #378DB9;
+  background-color: #011926;
 }
 .overlay-header{
-  background-color: #378DB9;
+  background-color: #011926;
 }
 .blog-content blockquote {
-  border-left: 5px solid #378DB9;
+  border-left: 5px solid #011926;
 }
 .share-area h4 i,
 .tag-area h4 i {
-  color: #378DB9;
+  color: #011926;
 }
 .share-area a:hover,
 .share-area a:focus{
-  color: #378DB9;
+  color: #011926;
 }
 .author-comments {
-  background-color: #378DB9 !important;
+  background-color: #011926 !important;
 }
 .reply-btn:hover{
-  background-color: #378DB9; 
+  background-color: #011926; 
 }
 .pagination li.active{
-  background-color: #378DB9;
+  background-color: #011926;
 }
 .card .card-action a {
-  color: #378DB9;  
+  color: #011926;  
 }
 .tagcloud a:hover,
 .tagcloud a:focus{
   color: #fff;
-  background-color: #378DB9;
-  border-color: #378DB9;
+  background-color: #011926;
+  border-color: #011926;
 }
 .prev-post:hover,
 .prev-post:focus,
 .next-post:hover,
 .next-post:focus{
-  background-color: #378DB9;
+  background-color: #011926;
 }
 .submit-btn{
-  color: #378DB9;  
+  color: #011926;  
 }
 .side-nav li:hover,
 .side-nav li.active {
-  background-color: #378DB9; 
+  background-color: #011926; 
 }
 .progress .indeterminate {
-  background-color: #378DB9;
+  background-color: #011926;
 }
 /*=======================================
 Template Design By MarkUps.

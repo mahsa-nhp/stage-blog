@@ -85,7 +85,7 @@ nav .brand-logo img {
 
 
 #home {
-  background-image: url("img/home-img1.jpg");
+  background-image: url("img/home-banner.jpg");
   background-position: 100% 100%;
   background-size: 100% 100%;
   display: inline;
@@ -93,6 +93,7 @@ nav .brand-logo img {
   height: 320px;
   position: relative;
   width: 100%;
+  /* opacity: 0.9; */
 }
 
 
