@@ -180,16 +180,17 @@ nav .brand-logo img {
 .about-inner-right{ 
   min-height: 250px;
   display: inline;
-  float: left;
+  /* float: left; */
   width: 100%;
 }
 
 
 .about-inner-right>p{
-  color: #727272;
-  font-size: 15px;
+  color: #5f5f5f;
+  font-size: 17px;
   line-height: 28px;
   margin-bottom: 35px;
+  min-width: 1200px;
 }
 
 
@@ -227,7 +228,7 @@ nav .brand-logo img {
 /* b:  */
 .personal-information-mahsa-design ul li{
   border-bottom: 1px solid #eeeeee;
-  color: hsl(0, 0%, 35%);
+  color: hsl(0, 0%, 59%);
   font-size: 15px;
   margin-bottom: 12px;
   padding-bottom: 12px;
