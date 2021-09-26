@@ -24,14 +24,18 @@ h6{
   -ms-transition: all 0.3s ease-out 0s;
   -o-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
+  text-decoration: none;
 }
 
 
 nav .brand-logo {    
   font-weight: bold;  
   text-transform: uppercase;
+  text-decoration: none;
 }
-
+nav:hover a{
+  color: #fff;
+}
 
 nav .brand-logo img {
   height: 45px;
@@ -41,6 +45,7 @@ nav .brand-logo img {
 
 .side-nav a {  
   text-transform: uppercase;
+  text-decoration: none;
 }
 
 
@@ -328,6 +333,9 @@ nav .brand-logo img {
   padding: 60px 0;
   float: left;
   width: 100%;
+  /* text-align: justify; */
+  text-overflow: auto;
+  
 }
 
 
@@ -335,6 +343,7 @@ nav .brand-logo img {
   display: inline;
   float: left;
   width: 100%;
+  
 }
 
 
@@ -348,6 +357,7 @@ nav .brand-logo img {
   font-size: 16px;
   font-weight: 400;
   line-height: 30px;
+
 }
 
 
@@ -362,7 +372,7 @@ nav .brand-logo img {
 
 .experience-title {
   border-bottom: 1px solid #eee;
-  color: #727272;
+  color: #0f0b0b;
   font-size: 17px;
   font-weight: 400;
   line-height: 1.7;
@@ -382,12 +392,13 @@ nav .brand-logo img {
   border-bottom: 1px solid #eee;
   display: block;
   padding-bottom: 10px;
+  color: #0f0b0b;
 }
 
 
 .reveal-title {
   color: #727272 !important;
-  font-size: 20px !important;
+  font-size: 13px !important;
 }
 
 
@@ -830,6 +841,7 @@ transition: background-color 0.5s ease-in-out;
 
 .blog-post-content {
   padding-top: 0 !important;
+  
 }
 
 
@@ -1140,7 +1152,8 @@ textarea.materialize-textarea {
   font-size: 40px;
   font-weight: 900;
   line-height: 40px;
-  margin-bottom: 10px;
+  /* margin-bottom: 10px; */
+  margin-top: 20px;
   text-transform: uppercase;
 }
 
@@ -1209,14 +1222,16 @@ textarea.materialize-textarea {
   width: 100%;
   padding: 100px;
   padding-top: 5px;
+  margin-top: 15px;
 
 }
 
 
 .blog-image{
   display: inline;  
-  float: left;
-  width: 100%;
+  float: right;
+  width: 50%;
+  margin: 20px;
 }
 
 
@@ -1274,6 +1289,7 @@ textarea.materialize-textarea {
   color: #555;
   font-size: 17px;
   margin: 0px;
+  text-align: justify;
 }
 
 
@@ -1821,6 +1837,7 @@ textarea.materialize-textarea {
   -webkit-transition: all 0.5s;
   -o-transition: all 0.5s;
   transition: all 0.5s;
+  text-decoration: none;
 }
 
 
@@ -1849,8 +1866,6 @@ textarea.materialize-textarea {
   .prev2 {margin-top: 13.5%;}
   .next2 {margin-top: 13.5%;}
   .contact-map{height: 492px;}
-
-  
 }
 
 
