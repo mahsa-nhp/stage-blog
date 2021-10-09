@@ -843,6 +843,9 @@ transition: background-color 0.5s ease-in-out;
   padding-top: 0 !important;
   
 }
+.blog-post-content h1 a{
+  text-decoration: none;
+}
 
 
 .blog-post-content h2,
@@ -1226,6 +1229,9 @@ textarea.materialize-textarea {
 
 }
 
+.blog-content h4 {
+  color: #FF5733
+}
 
 .blog-image{
   display: inline;  
