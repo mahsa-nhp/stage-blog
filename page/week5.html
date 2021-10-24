@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0" />
+
+  <title>Stage Blog : week 5</title>
+
+  <!-- CSS  -->
+  <link href="../css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <!-- Font Awesome -->
+  <link href="../css/font-awesome.css" rel="stylesheet">
+  <!-- Skill Progress Bar -->
+  <link href="../css/pro-bars.css" rel="stylesheet" type="text/css" media="all" />
+  <!-- Owl Carousel -->
+  <link rel="stylesheet" href="../css/owl.carousel.css">
+  <!-- Default Theme CSS File-->
+  <link id="switcher" href="../css/themes/default-theme.css" type="text/css" rel="stylesheet"
+    media="screen,projection" />
+  <!-- Main css File -->
+  <link href="../style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+
+  <!-- Font -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <!-- favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="../favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="../favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../favicon/favicon-16x16.png">
+  <link rel="manifest" href="../favicon/site.webmanifest">
+
+  <!-- bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+</head>
+
+<body>
+  <!-- BEGAIN PRELOADER -->
+  <div id="preloader">
+    <div class="progress">
+      <div class="indeterminate"></div>
+    </div>
+  </div>
+  <!-- END PRELOADER -->
+  <header id="header" role="banner">
+    <div class="navbar-fixed">
+      <nav>
+        <div class="container">
+          <div class="nav-wrapper">
+            <!-- LOGO -->
+
+            <!-- TEXT BASED LOGO -->
+            <a href="../index.html" class="brand-logo">Stage Blog</a>
+
+            <!-- Image Based Logo -->
+            <!-- <a href="index.html" class="brand-logo"><img src="img/logo.jpeg" alt="logo img"></a>  -->
+            <ul class="right hide-on-med-and-down custom-nav">
+              <li><a href="/index.html">Home</a></li>
+              <li class="active"><a href="/blog-archive.html">Blog archief</a></li>
+            </ul>
+            <!-- For Mobile View -->
+            <ul id="slide-out" class="side-nav menu-scroll">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="blog-archive.html">Blog archief</a></li>
+            </ul>
+            <!-- <a href="#" data-activates="slide-out" class="button-collapse"><i class="mdi-navigation-menu"></i></a> -->
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <div class="main-wrapper">
+    <main role="main">
+      <!-- START BLOG BANNER -->
+      <section id="banner">
+        <div class="parallax-container">
+          <div class="parallax">
+            <img src="../img/blog-header-bg.jpg">
+          </div>
+          <div class="overlay-header">
+          </div>
+          <div class="overlay-content">
+            <div class="container">
+              <!-- todo............................ -->
+              <!-- b: in bayad yek title monaseb ba an hafteh dashte  bashad! -->
+              <h1 class="header-title">Implementatie Homepage</h1>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="blog-details">
+        <div class="container">
+          <div class="row">
+            <div class="col s12 m8 l8">
+              <div class="blog-content">
+                <div class="blog-image">
+                  <!-- <img src="../img/blog3.jpg"> -->
+                </div>
+                <h2 style="margin-bottom: 0;">Reflectieverslag, week 5</h2>
+                <small>18/10/2021 - 22/10/2021</small>
+                <p style="margin-top: 10px; text-align: justify;"> Deze week was een stressvolle week voor mij. Ik was achter mijn plannen voor implementaties.
+                </p>
+
+                <br>
+                <h4>Maandag: </h4>
+                <p>Weer bezig met Homepage. Getuigenissen section voltooid.</p>
+                <p>Voor getuigenissen wou ik een slider gebruiken en na een onderzoek en kijken van aantal video's ben ik besloten om Swiper te gebruiken omdat men ermee heel mooie sliders kon tonen. Volgens die video's kon ik Swiper<sup>1</sup> met React gebruiken maar alhoewel ik uren lang erover bezig was en had verscillende video's nagemaakt waren die nutteloze pogingen. Ten slote heb ik Carousel slider (a component van react-bootstrap<sup>2</sup>) gebruikt dat geen mooie visie had (volgens mezelf) maar was genoeg voor een korte moment dat ik het later kan bijwerken wat volgens mijn stage begelijder een fout idee was. Volgens hem moest ik een section vervolledigen en dan met een andere stuk beginnen, zo kon hij mij beter helpen (dit advies was voor enkele dagen later dat ik geblokkerd was met codes van een design dat ik niet kon tonen en de grote les van de week).</p>
+                <img class="" src="" alt="" style="width:800px"/>
+                <h5>1. Swiper</h5>
+                <div class=" d-flex flex-row">
+                  <img class="" src="../img/share-banner-new.png" alt="" style="width:300px; margin-right: 2rem;"/>
+                  <p class="fst-italic mt-3">Swiper is de modernste gratis mobiele aanraakschuifregelaar met hardwareversnelde overgangen en verbazingwekkend native gedrag. Het is bedoeld voor gebruik in mobiele websites, mobiele web-apps en mobiele native/hybride apps.</p>
+                </div>
+                <br>
+                <h5>2. react-bootstrap</h5>
+                <div class=" d-flex flex-row">
+                  <img src="../img/react-bootstrap.png" alt="" style="width:300px; margin-right: 2rem;"/>
+                  <p class="fst-italic mt-3">React-bootstrap is een front-end Stylesheet-bibliotheek. deze bibliotheek bouwt met twee bibliotheken, één is react.js en ten tweede bootstrap.</p>
+                </div>
+                <br>
+                <h4>Dinsdag: </h4>
+                
+                <p>Bezig met Homepage. Header gemaakt.</p>
+                <p class=" ">In het eerste zicht vind men het design heel simpel maar heeft veel details om gebouwd te worden. Vandaag heb ik veel over CSS geleerd o.a. hoe ik een <code><</code><code>div</code><code>></code> tag order kan geven om in mobile versie anders kan getoond worden (bv. eerst een foto dan de tekst en omgekeerd). Ik heb Flexbox ervoor gebruikt (helaas geen slimme keuze). In plaats daarvan kon ik de technologie van grid die werken ermee heel makkelijker is gebruiken.</p>
+                <img class="" src="../img/header.PNG" alt="" style="width:800px"/>
+                <br><br>
+                <h4>Woensdag: </h4>
+                
+                <p>Bezig met Homepage. Header responsief voor mobile gemaakt (niet volledig, zoekbalk is momenteel niet responsief).</p>
+                <p>Navbar gemaakt. Enkele video's gekeken hoe het voor mobile responsief kan maken en ben tegen styled-components gekomen.</p>
+                <h5></h5>
+                <div class=" d-flex flex-row">
+                  <img src="../img/styledcomponents.png" alt="" style="width:300px; margin-right: 2rem;"/>
+                  <p class="fst-italic mt-3">styled-components is een bibliotheek voor React en React Native waarmee u stijlen op componentniveau in uw toepassing kunt gebruiken die zijn geschreven met een combinatie van JavaScript en CSS met behulp van een techniek die CSS-in-JS wordt genoemd.</p>
+                </div>
+                <br>
+                <figure class="clearfix">
+                  <img src="../img/navbar-transparent.PNG"
+                       alt="" style="width:800px">
+                  <figcaption><b>Navbar met een transparent background.</b></figcaption>
+                </figure>
+                <figure>
+                  <img src="../img/navbar-na schroll.PNG" alt="" style="width:800px">
+                  <figcaption><b>Navbar na schroll; blijft sticky on top.</b></figcaption>
+               </figure>
+                <br>
+                <h4>Donderdag: </h4>
+                
+                <p>bezig met homepage.</p>
+                <ul>
+                  <li>Navbaar responsief voor mobile</li>
+                  <img src="../img/navbar responsief.PNG" alt="" style="width:400px">
+                  <br><br>
+                  <li>Over ons herschrijven</li>
+                  <img src="../img/over-ons-herschreven.PNG" alt="" style="width:800px">
+                  <br><br>
+                  <li>Getuigenissen verbeterd.</li>
+                  <p>Tijdens de vergadering wordt besloten dat getuigenissen geen slider meer zou zijn.</p>
+                </ul>
+                <img src="" alt="" style="width:800px"/>
+                <br>
+                <h4>Vrijdag: </h4>
+                
+                <p>Tijdens de vergadering wordt besloten dat getuigenissen geen slider meer zou zijn, aantal verbeteringen in design en debug van inloggen button (het moet met twee andere buttons (mijn pagina's en welkom aan gebruiker) verplaats worden maar wordt onzichtbaar).</p>
+                <ul>
+                  <li>Geprobeerd de bug van inloggen op te lossen maar lukte nog niet.</li>
+                  <li>Aan de slag verbeterd (er was een probleem met de size van illustraties daarom konden ze niet als een ronde circle getoond worden.</li>
+                  <li>Header verbeterd maar moet herschrijven worden met grid.</li>
+                  <li>Getuigenissen herschreven. Hiervoor heb ik "Fancy Border Radius Generator" gebruikt voor fotokaders.</li>
+                  <br>
+                  <img src="../img/getuigenissen-herschreven.PNG" alt="" style="width:800px">
+                </ul>
+                <br>
+                <h5>Fancy Border Radius Generator</h5>
+                <div class="d-flex flex-row">
+                  <img src="../img/fbrd.png" alt="" style="width:300px; margin-right: 2rem;">
+                  <p class="fst-italic mt-3">Een visuele generator om organisch ogende vormen te bouwen met behulp van CSS3 border-radius-eigenschap.</p>
+                </div>
+
+               <br><br><br>
+               <!-- <p><b>P.S:</b> Mobile versies zijn <a href="https://vivamemoria.be/">hier</a> beschikbaar.</p> -->
+              </div>
+              <!-- b: Start Blog Navigation -->
+              <div class="blog-navigation">
+                <div class="blog-navigation-left">
+                  <a class="prev-post" href="week4.html">Prev Post</a>
+                </div>
+                <!-- <div class="blog-navigation-right">
+                  <a class="next-post" href="week6.html">Next Post</a>
+                </div> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Start Footer -->
+      <footer id="footer" role="contentinfo">
+        <!-- Start Footer Bottom -->
+        <div class="footer-bottom">
+          <div class="container">
+            <div class="row">
+              <div class="col s12">
+                <div class="footer-inner">
+                  <!-- Bottom to Up Btn -->
+                  <button class="btn-floating btn-large up-btn"><i class="mdi-navigation-expand-less"></i></button>
+                  <!-- <p class="design-info">Designed By <a href="http://www.markups.io/">MarkUps.io</a></p> -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </main>
+  </div>
+  <!-- jQuery Library -->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <!-- Materialize js -->
+  <script type="text/javascript" src="../js/materialize.min.js"></script>
+  <!-- Skill Progress Bar -->
+  <script src="../js/appear.min.js" type="text/javascript"></script>
+  <script src="../js/pro-bars.min.js" type="text/javascript"></script>
+  <!-- Owl slider -->
+  <script src="../js/owl.carousel.min.js"></script>
+  <!-- Mixit slider  -->
+  <script src="https://cdn.jsdelivr.net/jquery.mixitup/latest/jquery.mixitup.min.js"></script>
+  <!-- counter -->
+  <script src="../js/waypoints.min.js"></script>
+  <script src="../js/jquery.counterup.min.js"></script>
+
+  <!-- Custom Js -->
+  <script src="../js/custom.js"></script>
+</body>
+
+</html>
