@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0" />
+
+  <title>Stage Blog : week 8</title>
+
+  <!-- CSS  -->
+  <link href="../css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <!-- Font Awesome -->
+  <link href="../css/font-awesome.css" rel="stylesheet">
+  <!-- Skill Progress Bar -->
+  <link href="../css/pro-bars.css" rel="stylesheet" type="text/css" media="all" />
+  <!-- Owl Carousel -->
+  <link rel="stylesheet" href="../css/owl.carousel.css">
+  <!-- Default Theme CSS File-->
+  <link id="switcher" href="../css/themes/default-theme.css" type="text/css" rel="stylesheet"
+    media="screen,projection" />
+  <!-- Main css File -->
+  <link href="../style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+
+  <!-- Font -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <!-- favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="../favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="../favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../favicon/favicon-16x16.png">
+  <link rel="manifest" href="../favicon/site.webmanifest">
+
+  <!-- bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+</head>
+
+<body>
+  <!-- BEGAIN PRELOADER -->
+  <div id="preloader">
+    <div class="progress">
+      <div class="indeterminate"></div>
+    </div>
+  </div>
+  <!-- END PRELOADER -->
+  <header id="header" role="banner">
+    <div class="navbar-fixed">
+      <nav>
+        <div class="container">
+          <div class="nav-wrapper">
+            <!-- LOGO -->
+
+            <!-- TEXT BASED LOGO -->
+            <a href="../index.html" class="brand-logo">Stage Blog</a>
+
+            <!-- Image Based Logo -->
+            <!-- <a href="index.html" class="brand-logo"><img src="img/logo.jpeg" alt="logo img"></a>  -->
+            <ul class="right hide-on-med-and-down custom-nav">
+              <li><a href="/index.html">Home</a></li>
+              <li class="active"><a href="/blog-archive.html">Blog archief</a></li>
+            </ul>
+            <!-- For Mobile View -->
+            <ul id="slide-out" class="side-nav menu-scroll">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="blog-archive.html">Blog archief</a></li>
+            </ul>
+            <!-- <a href="#" data-activates="slide-out" class="button-collapse"><i class="mdi-navigation-menu"></i></a> -->
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <div class="main-wrapper">
+    <main role="main">
+      <!-- START BLOG BANNER -->
+      <section id="banner">
+        <div class="parallax-container">
+          <div class="parallax">
+            <img src="../img/blog-header-bg.jpg">
+          </div>
+          <div class="overlay-header">
+          </div>
+          <div class="overlay-content">
+            <div class="container">
+              <!-- todo............................ -->
+              <!-- b: in bayad yek title monaseb ba an hafteh dashte  bashad! -->
+              <h1 class="header-title">Nieuwe design voorstellen</h1>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="blog-details">
+        <div class="container">
+          <div class="row">
+            <div class="col s12 m8 l8">
+              <div class="blog-content">
+                <div class="blog-image">
+                </div>
+                <h2 style="margin-bottom: 0;">Reflectieverslag, week 8</h2>
+                <small>08/11/2021 - 12/11/2021</small>
+                <p style="margin-top: 10px; text-align: justify;">Deze week beeindigd niet goed. Er is een concurrent voor VIVA MEMORIA zichtbar geworden. Daardoor ik enkele weken bezig met implementeren van Homepage was en geen werkzame hulp van mijn begeleiders ontvangen kon kon ik mijn taak niet correct afmaken en elke keer bij het goedmaken en een stuk kreeg ik een probleem met andere stuk daarom aan het einde van de week hebben mijn begeleiders besloten dat ik alleen de design ga voorstellen en mijn collega Abdurrahman is verantwoordelijk voor beide front- en backend. Zo is het misschien mogelijk dat ze hun website sneller kunnen live maken!
+                </p>
+                <ul>
+                  <li>Header opnieuw geschreven</li>
+                  <li>Header responsief voor enkele breakpoints gemaakt</li>
+                  <li>bug van navbar met design voor hogere breedtes opgelost</li>
+                </ul>
+                <br>
+                <!-- h:                                                                    -->
+                <h4>Maandag: </h4>
+                <br>
+                  <h5>Header opnieuw geschreven</h5>
+                  <p>Bij vorige versie had ik bij mobile version van searchbar een probleem. Alhoewel ik het heb aangemeld krijg ik geen hulp, na het bekijken van video's over Bootstrap 5 ben ik besloten om het opnieuw schrijven. Uiteindelijk is mijn probleem opgelost geworden.</p>
+                  <p>Mijn grotere probleem is het werken met localhost. Ik weet niet waarom het zo traag gaat worden met React! Elke keer bij een kleine verandering moet ik een nieuw raam openmaken en op f12 drukken om web developers tools open te kunnen maken daarom het prcces héél vervelend en tijdsverpillend is. Probleem aan mijn begelijder voorgesteld maar geen hulp! </p>
+                <br>
+                <br>
+                <!-- h:                                                                    -->
+                <h4>Dinsdag: </h4>
+                <br>
+                <h5>Header responsief voor enkele breakpoints gemaakt</h5>
+                <p>Ik heb eerst geprobeerd hele pagina voor deze breakpoints te schrijven</p>
+                <p>
+                <pre>
+                /* portrait phones */
+                @media (max-width: 575px) {
+                    
+                }
+
+                /* landscape phones */
+                @media (min-width: 576px) and (max-width: 767px){
+                  
+                }
+
+                /* tablets */
+                @media (min-width: 768px) and (max-width: 991px){
+                  
+                }
+
+                /* large desktops */
+                @media (min-width: 1200px) {
+                  
+                }
+
+                /* xlarge desktops */
+                @media (min-width: 1400px) {
+                  
+                }
+                </pre>
+                </p>
+
+                <p>Aangezien responsief maken altijd mislukte voor verschillende devices, ben ik besloten om het niet met localhost maar bij aantal breakpoints die bij mijn device gemaakt kunnen worden maken(ik kan mijn scherm voor aantal verschillende breakpoints aanpassen). Daarom heb ik het zo gemaakt en deployed maar daarna dacht ik dat het met officiele breakpoints moet geschreven worden! </p>
+
+                <p>Door een conflict (die ik niet kon oplossen) heb ik mijn css file local verloren daarom misschien nog aantal andere breakpoints zijn er die ik vergeten ben!</p>
+                  <ul>
+                    <li>360px</li>
+                    <li>361px - 820px</li>
+                    <li>821px - 1024px</li>
+                    <li>1025px - 1280px</li>
+                    <li>1920px</li>
+                  </ul>
+                </p>
+                <br>
+                <!-- h:                                                                    -->
+                <h4>Woensdag: </h4>
+                <br>
+                <h5>Bug van navbar met design voor hogere breedtes opgelost</h5>
+                <p>Design van navbar had een probleem voor hogere breakpoints. Ik was de hele dag ermee bezig. Uiteindelijk heb ik het opgelost en ook voor alle breakpoints responsief gemaakt maar tijdens het deployen krijg ik een onlogische conflict (conflict met mijn eigen codes die voor navbar geschreven waren maar ik die helemaal verwijderd had om het opniuew te schrijven) en na een uur zoeken en verschillede pogingen het lukte niet (conflict was niet duidelijk om opgelost te worden ik had een oplossing van bitbucket gevolgd maar de conflict komt weer.). Ik kon mijn begeleider ook niet bereiken om het op te lossen. Ten slote met een foute beslissing heb ik mijn codes local verloren.</p>
+                <p>Thuis heb ik geprobeerd om een reverse bij mijn vorige branch te maken maar krijg ik weer de conflict daarom ben ik besloten om het volgende keer aan mijn begeleiders tonen, mss kunnen ze het oplossen maar was ook een foute beslissing!</p>
+                <br>
+                <!-- h:                                                                    -->
+                <h4>Donderdag: </h4>
+                <br>
+                <h5>Vandaag was een vrije dag maar ik ging van 13:00 tot 17:00 op kantoor om met mijn begeleiders over de website en wat kan beter of toegevoed worden bespreken!</h5>
+                <p>Ik heb mijn begeleiders gevraagd om mijn probleem over conflict op te lossen maar volgens hen zulke problemen kon ik met mijn collega Abdurrahman bespreken. Ik heb voorgesteld dat ik deze repo op mijn device verwijderen en een nieuwe clone te maken en verder werken (met reverse op vorife stabiele versie) en ze gingen akkoord ermee.</p>
+                
+                <p>We hebben ook besproken over mijn werk dat het zolang duurde en kreeg een deadline tot maandag dat navbar klaar moet zijn. Ik heb beloofd dat hele homepage tegen maandag klaar kan zijn. Daarna hebben we over de website gesproken en alles was OK gelopen.</p>
+
+                <p>Nadat ik thuis ben gekomen heb ik op onze groep in WhatsApp een bericht ontvangen dat ik aan design moet verder werken en momenteel niet meer op front-end. Omdat er geen tijd is dat ik rustig met testen(goed of fout maken) de design implementeren. Vanaf nu is Abdurrahman ervoor verantwoordelijk!</p>
+
+                <br>
+                <!-- h:                                                                    -->
+                <h4>Vrijdag: </h4>
+                <br>
+                <h5>Vrijdag is een vrije dag. Aangezien ik van mijn taak(front-end) opzij gelaten ben geworden was ik vrij.</h5>
+                <img src="" alt="" />
+
+              </div>
+              <!-- b: Start Blog Navigation -->
+              <div class="blog-navigation">
+                <div class="blog-navigation-left">
+                  <a class="prev-post" href="week5.html">Prev Post</a>
+                </div>
+                <div class="blog-navigation-right">
+                  <!-- <a class="next-post" href="week7.html">Next Post</a> -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Start Footer -->
+      <footer id="footer" role="contentinfo">
+        <!-- Start Footer Bottom -->
+        <div class="footer-bottom">
+          <div class="container">
+            <div class="row">
+              <div class="col s12">
+                <div class="footer-inner">
+                  <!-- Bottom to Up Btn -->
+                  <button class="btn-floating btn-large up-btn"><i class="mdi-navigation-expand-less"></i></button>
+                  <!-- <p class="design-info">Designed By <a href="http://www.markups.io/">MarkUps.io</a></p> -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </main>
+  </div>
+  <!-- jQuery Library -->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <!-- Materialize js -->
+  <script type="text/javascript" src="../js/materialize.min.js"></script>
+  <!-- Skill Progress Bar -->
+  <script src="../js/appear.min.js" type="text/javascript"></script>
+  <script src="../js/pro-bars.min.js" type="text/javascript"></script>
+  <!-- Owl slider -->
+  <script src="../js/owl.carousel.min.js"></script>
+  <!-- Mixit slider  -->
+  <script src="https://cdn.jsdelivr.net/jquery.mixitup/latest/jquery.mixitup.min.js"></script>
+  <!-- counter -->
+  <script src="../js/waypoints.min.js"></script>
+  <script src="../js/jquery.counterup.min.js"></script>
+
+  <!-- Custom Js -->
+  <script src="../js/custom.js"></script>
+</body>
+
+</html>
