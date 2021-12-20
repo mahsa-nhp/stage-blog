@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0" />
+
+  <titel>Stage Blog : week 13</titel>
+
+  <!-- CSS  -->
+  <link href="../css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <!-- Font Awesome -->
+  <link href="../css/font-awesome.css" rel="stylesheet">
+  <!-- Skill Progress Bar -->
+  <link href="../css/pro-bars.css" rel="stylesheet" type="text/css" media="all" />
+  <!-- Owl Carousel -->
+  <link rel="stylesheet" href="../css/owl.carousel.css">
+  <!-- Default Theme CSS File-->
+  <link id="switcher" href="../css/themes/default-theme.css" type="text/css" rel="stylesheet"
+    media="screen,projection" />
+  <!-- Main css File -->
+  <link href="../style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+
+  <!-- Font -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <!-- favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="../favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="../favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../favicon/favicon-16x16.png">
+  <link rel="manifest" href="../favicon/site.webmanifest">
+
+  <!-- bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+</head>
+
+<body>
+  <!-- BEGAIN PRELOADER -->
+  <div id="preloader">
+    <div class="progress">
+      <div class="indeterminate"></div>
+    </div>
+  </div>
+  <!-- END PRELOADER -->
+  <header id="header" role="banner">
+    <div class="navbar-fixed">
+      <nav>
+        <div class="container">
+          <div class="nav-wrapper">
+            <!-- LOGO -->
+
+            <!-- TEXT BASED LOGO -->
+            <a href="../index.html" class="brand-logo">Stage Blog</a>
+
+            <!-- Image Based Logo -->
+            <!-- <a href="index.html" class="brand-logo"><img src="img/logo.jpeg" alt="logo img"></a>  -->
+            <ul class="right hide-on-med-and-down custom-nav">
+              <li><a href="/index.html">Home</a></li>
+              <li class="active"><a href="/blog-archive.html">Blog archief</a></li>
+            </ul>
+            <!-- For Mobile View -->
+            <ul id="slide-out" class="side-nav menu-scroll">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="blog-archive.html">Blog archief</a></li>
+            </ul>
+            <!-- <a href="#" data-activates="slide-out" class="button-collapse"><i class="mdi-navigation-menu"></i></a> -->
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <div class="main-wrapper">
+    <main role="main">
+      <!-- START BLOG BANNER -->
+      <section id="banner">
+        <div class="parallax-container">
+          <div class="parallax">
+            <img src="../img/blog-header-bg.jpg">
+          </div>
+          <div class="overlay-header">
+          </div>
+          <div class="overlay-content">
+            <div class="container">
+              <!-- todo............................ -->
+              <!-- b: in bayad yek titel monaseb ba an hafteh dashte  bashad! -->
+              <h1 class="header-titel">implementatie</h1>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="blog-details">
+        <div class="container">
+          <div class="row">
+            <div class="col s12 m8 l8">
+              <div class="blog-content">
+                <div class="blog-image">
+                  <!-- <img src="../img/blog3.jpg"> -->
+                </div>
+                <h2 style="margin-bottom: 0;">Reflectieverslag, week 13</h2>
+                <small>13/12/2021 - 17/12/2021</small>
+                <p style="margin-top: 10px; text-align: justify;"> Deze week ging het vrij goed. Voor aantal problemen en taken heb ik veel onderzoek gedaan. Bij sommige was het heel complex en alhoewel ik veel documentaties heb gelezen kon geen manier vinden om mijn probleem op te lossen. Aan de andere kant bij onderzoek over payment service providers heb ik veel over dit systeem en services geleerd waar ik vroeger geen idee erover had.
+                </p>
+                <p>Ik ben ook weer begonnen met implementatie van pagina's wat na anderhalf maand afstand heel leuk was en ik kon het heel simpler dan vroeger implementeren. </p>
+
+              
+                <p class="fw-bold">Volgende taken heb ik gedaan:</p>
+                <ul>
+                  <li>geprobeerd een manier te vinden om ongeldige e-mailadressen bij registraties niet accepteren</li>
+                  <li>Nederlandse versie van errors en reset password</li>
+                  <li>taak gekregen om met linkgenerator aantal links te maken</li>
+                  <li>regex codes gevonden voor form validaties</li>
+                  <li>basic form voor "herdenkingsruimte aanmaken" gemaakt</li>
+                  <li>layout van verification email veranderd</li>
+                  <li>onderzoek over payment service providers</li>
+                  <li>test van functionaliteit</li>
+                  <li>implementatie van privacybeleid pagian</li>
+                </ul>
+
+                <!-- h:  -->
+                <h4 class="" style="margin-top: 110px;">Maandag: </h4>
+                <ul>
+                  <li class="">
+                    <p class="h4 mt-3">geprobeerd een manier te vinden om ongeldige e-mailadressen bij registraties niet accepteren</p>
+                    <p>Ik kon alleen javascript gebruiken bij custom UI van Auth0, maar kon geen manier ervoor vinden.</p>
+                    <p>Er is een betalen service dat bij server moet staan. Het gaat automatisch ongeldige e-mails negeren. Er is ook een andere niet betalend manier maar moet met node.js geschreven worden, dus bij custom UI is niet mogelijk om geschreven te worden.</p>
+                  </li>
+                  <li class="">
+                    <p class="h4 mt-3">Nederlandse versie van errors en reset password</p>
+                    <p>Ik had ook een andere taak om de reset password en error messages in het Nederlands te schrijven. ik heb de reset password zinnen in het Nederlands geschreven maar bij het testen kreeg ik geen email. Deze functie werkte vorige weerk daarom dacht ik dat de codes zijn misschien aangepast. Voor de zekerheid heb ik het met mijn eigen App getest maar daar kreeg ik ook geen verification email. Daarna dacht ik dat alles door de custom UI versie komt en heb de universal login form geprobeerd maar daarmee kreeg ik weer hetzelfde probleem. Ik dacht dat misschien het probleem tijdelijk is, dus heb tot volgende dag gewacht en dat klopte.</p>
+                  </li>
+                </ul>
+                <!-- h:  -->
+                <h4 class="mt-5">Dinsdag: </h4>
+                <ul>
+                  <li class="">
+                    <p class="h4 mt-3">taak gekregen om met linkgenerator aantal links te maken</p>
+                    <p>Door aanvraag van mijn mentor heb ik via linkgenerator links gemaakt voor twee plaatsen in herdenkingsruimte. Ik heb ook via een normale <code><</code><code>a</code><code>></code> tag hetzelfde functie gemaakt om te tonen dat het met normale html-codes ook mogelijk is.</p>
+                    <p class="fw-bold text-primary">Het resultaat:</p>
+                    
+                    <figure class="mb-5">
+                      <figcaption class="fw-bold h3">met linkgenerator</figcaption>
+                      <img src="../img/linkgenerators.PNG" alt="" style="width: 800px;">
+                      <img src="../img/email-met-linkgenerator.PNG" alt="" style="width: 800px;">
+                    </figure>
+                    <figure class="mt-5">
+                      <figcaption class="fw-bold h3">met gewone anker tag</figcaption>
+                      <img src="../img/anker-code.PNG" alt="" style="width: 800px;">
+                      <img src="../img/email-met-anker.PNG" alt="" style="width: 800px;">
+                    </figure>
+                  </li>
+                  <li class="">
+                    <p class="h4 mt-5">regex codes gevonden voor form validaties</p>
+                    <p>Regex (staat voor regular expression) codes gevonden voor form validaties maar na een onderzoek beseft dat via Bootstrap het gemakkelijker zou zijn. Daarom heb ik de form validaties met Bootstrap gedaan.</p>
+                    <p>bijvoorbeeld:</p>
+                    <img src="../img/form-validatie.PNG" alt="">
+                  </li>
+                  <li class="">
+                    <p class="h4 mt-3">basic form voor "herdenkingsruimte aanmaken" gemaakt</p>
+                    <p>Ik heb de basic form met html en Bootstrap gemaakt. De style van finale versie moet aangepast worden bij css file.</p>
+                    <img src="../img/form1.PNG" alt="" >
+                    <img src="../img/form2.PNG" alt="" >
+                    <img src="../img/form3.PNG" alt="" >
+
+                  </li>
+                </ul>
+
+                <!-- h:  -->
+                <h4 class="mt-5">Woensdag: </h4>
+                <ul>
+                  <li class="">
+                    <p class="h4 mt-3">reset passwoord in het Nederlands gemaakt</p>
+                    <p>De form en zijn error berichten staan nu in het Nederlands.</p>
+                  </li>
+                  <li class="">
+                    <p class="h4 mt-3">layout van verification email veranderd</p>
+                    <p>Ik heb in het Nederlands vertaald, onze logo en kleur ook gebruikt. Het is momenteel niet bruikbaar omdat ik ons email provider bij Auth0 moet toevoegen en aantal aanpassingen erbij maken.</p>
+                  </li>
+                  <li class="">
+                    <p class="h4 mt-3">poging tot Nederlandse error messages bij login pagina te hebben</p>
+                    <p>Ik heb meerdere keren geprobeerd om error messages van login page in het Nederlands te vertalen maar geen success ermee. Op gewone html en op localhost werkt de gewoone Bootstrap maar kon helaas niet functioneren bij Auth0. Ik moet later dit probleem oplossen.</p>
+                  </li>
+                </ul>
+
+                <!-- h:  -->
+                <h4 class="mt-5">Donderdag: </h4>
+                <ul>
+                  <li class="">
+                    <p class="h4 mt-3">onderzoek over payment service providers</p>
+                    <p>Ik heb over payment service providers een onderzoekje gedaan en 4 providers gekozen en gedocumenteerd bij hun kosten om tijdens onze vergadering te kunnen vergelijken en eentje te kiezen.</p>
+                  </li>
+                  <li class="">
+                    <p class="h4 mt-3">test van de functie op jira (met comment en screenshot)</p>
+                  </li>
+                  <li class="">
+                    <p class="h4 mt-3">implementatie van pricacybeleid begonnen</p>
+                  </li>
+                </ul>
+
+                <!-- h:  -->
+                <h4 class="mt-5">Vrijdag: </h4>
+                <ul>
+                  <li class="">
+                    <p class="h4 mt-3">implementatie van pricacybeleid afgemaakt</p>
+                    <p>Het is responsief voor alle devices. Maar er is een probleem, met redirect naar de paragraf met uitleg van de gekozen titel. De titel gaat onder sticky navbar staan. Volgende week zal ik een manier te vinden om het op te lossen.</p>
+                  </li>
+                </ul>
+
+
+              </div>
+              <!-- b: Start Blog Navigation -->
+              <div class="blog-navigation">
+                <div class="blog-navigation-left">
+                  <a class="prev-post" href="week12.html">Prev Post</a>
+                </div>
+                <div class="blog-navigation-right">
+                  <!-- <a class="next-post" href="week14.html">Next Post</a> -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Start Footer -->
+      <footer id="footer" role="contentinfo">
+        <!-- Start Footer Bottom -->
+        <div class="footer-bottom">
+          <div class="container">
+            <div class="row">
+              <div class="col s12">
+                <div class="footer-inner">
+                  <!-- Bottom to Up Btn -->
+                  <button class="btn-floating btn-large up-btn"><i class="mdi-navigation-expand-less"></i></button>
+                  <!-- <p class="design-info">Designed By <a href="http://www.markups.io/">MarkUps.io</a></p> -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </main>
+  </div>
+  <!-- jQuery Library -->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <!-- Materialize js -->
+  <script type="text/javascript" src="../js/materialize.min.js"></script>
+  <!-- Skill Progress Bar -->
+  <script src="../js/appear.min.js" type="text/javascript"></script>
+  <script src="../js/pro-bars.min.js" type="text/javascript"></script>
+  <!-- Owl slider -->
+  <script src="../js/owl.carousel.min.js"></script>
+  <!-- Mixit slider  -->
+  <script src="https://cdn.jsdelivr.net/jquery.mixitup/latest/jquery.mixitup.min.js"></script>
+  <!-- counter -->
+  <script src="../js/waypoints.min.js"></script>
+  <script src="../js/jquery.counterup.min.js"></script>
+
+  <!-- Custom Js -->
+  <script src="../js/custom.js"></script>
+</body>
+
+</html>
