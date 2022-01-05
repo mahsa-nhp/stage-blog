@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0" />
+  
+    <title>Stage Blog : week 14</title>
+  
+    <!-- CSS  -->
+    <link href="../css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <!-- Font Awesome -->
+    <link href="../css/font-awesome.css" rel="stylesheet">
+    <!-- Skill Progress Bar -->
+    <link href="../css/pro-bars.css" rel="stylesheet" type="text/css" media="all" />
+    <!-- Owl Carousel -->
+    <link rel="stylesheet" href="../css/owl.carousel.css">
+    <!-- Default Theme CSS File-->
+    <link id="switcher" href="../css/themes/default-theme.css" type="text/css" rel="stylesheet"
+      media="screen,projection" />
+    <!-- Main css File -->
+    <link href="../style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="../favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../favicon/favicon-16x16.png">
+    <link rel="manifest" href="../favicon/site.webmanifest">
+  
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+  
+  </head>
+
+<body>
+  <!-- BEGAIN PRELOADER -->
+  <div id="preloader">
+    <div class="progress">
+      <div class="indeterminate"></div>
+    </div>
+  </div>
+  <!-- END PRELOADER -->
+  <header id="header" role="banner">
+    <div class="navbar-fixed">
+      <nav>
+        <div class="container">
+          <div class="nav-wrapper">
+            <!-- LOGO -->
+
+            <!-- TEXT BASED LOGO -->
+            <a href="../index.html" class="brand-logo">Stage Blog</a>
+
+            <!-- Image Based Logo -->
+            <!-- <a href="index.html" class="brand-logo"><img src="img/logo.jpeg" alt="logo img"></a>  -->
+            <ul class="right hide-on-med-and-down custom-nav">
+              <li><a href="/index.html">Home</a></li>
+              <li class="active"><a href="/blog-archive.html">Blog archief</a></li>
+            </ul>
+            <!-- For Mobile View -->
+            <ul id="slide-out" class="side-nav menu-scroll">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="blog-archive.html">Blog archief</a></li>
+            </ul>
+            <!-- <a href="#" data-activates="slide-out" class="button-collapse"><i class="mdi-navigation-menu"></i></a> -->
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <div class="main-wrapper">
+    <main role="main">
+      <!-- START BLOG BANNER -->
+      <section id="banner">
+        <div class="parallax-container">
+          <div class="parallax">
+            <img src="../img/blog-header-bg.jpg">
+          </div>
+          <div class="overlay-header">
+          </div>
+          <div class="overlay-content">
+            <div class="container">
+              <!-- todo............................ -->
+              <!-- b: in bayad yek titel monaseb ba an hafteh dashte  bashad! -->
+              <h1 class="header-title">implementatie</h1>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="blog-details">
+        <div class="container">
+          <div class="row">
+            <div class="col s12 m8 l8">
+              <div class="blog-content">
+                <div class="blog-image">
+                  <!-- <img src="../img/blog3.jpg"> -->
+                </div>
+                <h2 style="margin-bottom: 0;">Reflectieverslag, week 14</h2>
+                <small>20/12/2021 - 24/12/2021</small>
+                <p style="margin-top: 10px; text-align: justify;"> Deze week ging het vrij goed. Ik was de hele week bezig met implementatie van pagina's. Het was een leerzame week. Ik heb meer betrokken met react en componenten die in verschillende pagina's opnieuw gebruikt kunnen worden. Dus het is niet meer nodig om een funcie in verschillende pagina's opnieuw te schrijven waarvoor een developer veel tijd kan besparen en aan de andere kant de snelheid van de website zou verhogen door het minder herhalen van dezelfde codes.
+                </p>
+                <p>Alleen responsief maken van pagina's kost even tijd omdat werken met react en dev tools een beetje langzaam is.</p>
+
+              
+                <p class="fw-bold">Volgende taken heb ik gedaan:</p>
+                <ul>
+                  <li>design voor debug van het verstoppende titels onder sticky navbar op Miro  (voor algemene voorwaarden, privacybeleid- en FAQ-pagina's)</li>
+                  <li>contactgegevens op privacybeleid pagina toegevoegd en geactiveerd</li>
+                  <li>component van scroll naar boven knop voorgesteld en geimplementeerd</li>
+                  <li>test van functionaliteit op jira</li>
+                  <li>implementatie van FAQ-pagina</li>
+                  <li>het verplaatsen van alle gebruikte foto's naar Google Drive</li>
+                  <li>scroll naar boven knop aangepast</li>
+                  <li>mail provider voor Auth0 geactiveerd</li>
+                  <li>deactivatie van de SMTP server op Plesk</li>
+                  <li>implementatie van "mijn herdenkingsruimten" pagina</li>
+                  <li>het aanpassen van 404-pagina design</li>
+                  <li>mijn herdenkingsruimten pagina responsief gemaakt</li>
+                  <li>paginatie component gemaakt</li>
+                  <li>spinner component gemaakt</li>
+                  <li>implementatie van 404-pagina</li>
+                </ul>
+
+                <!-- h:  -->
+                <h4 class="" style="margin-top: 110px;">Maandag: </h4>
+                <ul>
+                  <li class="">
+                    <p class="h4 mt-3">design voor debug van het verstoppende titels onder sticky navbar (algemene voorwaarden, privacybeleid- en FAQ-pagina's)</p>
+                    <p>3 ideeën op miro gezet dan kunnen mijn mentors gemakkelijker beslissen welk idee zou beter zijn. 
+                    </p>
+                    <img src="../img/drie-ideen.PNG" alt="" class="border">
+                  </li>
+                  <li class="">
+                    <p class="h4 mt-5">implementatie van tweede idee</p>
+                    <p>Een van mijn ideeën is één afbeelding toevogen boven elk titel, zo bestaat er voldoende ruimte tussen de titel en sticky navbar. Daarvoor heb ik afbeeldingen gezocht, editeerd obv onze kleur regels en daarna de implementatie van privacybeleid pagina aangepast met afbeeldingen.</p>
+                  </li>
+                  <li class="">
+                    <p class="h4 mt-5">contactgegevens op privacybeleid pagina toegevoegd en geactiveerd</p>
+                    <p></p>
+                    <img src="../img/contact-gegevens-activatie.PNG" alt="" class="border">
+                  </li>
+                  <li class="">
+                    <p class="h4 mt-5">component van scroll naar boven knop voorgesteld en geimplementeerd</p>
+                    <p>Nu kunt de gebruiker met een klik op elk titel naar zijn gerelateerde uitleg gaan. Om gebruikers snell terug naar boven te kunnen gaan -zonder extra manuaal scroll naar boven- heb ik een component voor "terug naar boven-knop" gemaakt en toegevoegd in de pricacybeleid pagina. Deze component kunt hergebruikt worden in gelijke pagina's zoals algemene voorwaarden, veelgestelde vragen enzovoort.</p>
+                    <img src="../img/scrollToTop.PNG" alt="" class="mb-5 border">
+                  </li>
+                </ul>
+                <!-- h:  -->
+                <h4 class="mt-5">Dinsdag: </h4>
+                <ul>
+                  <li class="">
+                    <p class="h4 mt-3">test van functionaliteit op jira met screenshot en comment</p>
+                  </li>
+                  <li class="">
+                    <p class="h4 mt-5">implementatie van FAQ-pagina (veelgestelde vragen)</p>
+                    <p></p>
+                    <img src="../img/implementatie-FAQ.PNG" alt="" class="border">
+                  </li>
+                  <li class="">
+                    <p class="h4 mt-5">alle foto's van van ons project naar Google Drive verplaatst. Ivp. relative path heb ik Google Drive URL gebruikt. bv:</p>
+                    <img src="../img/google-drive-path.PNG" alt="">
+                  </li>
+                  <li class="">
+                    <p class="h4 mt-5">scroll naar boven knop aangepast</p>
+                    <p> Ipv een knop met een text heb ik het met een icon met top-arrow gemaakt. voor de tooltip heb ik bootstrap-react overlay gebruikt.</p>
+                    <figure class="mb-5">
+                      <figcaption class="fw-bold h3">knop met een tekst</figcaption>
+                      <img src="../img/terug boven-knop.PNG" alt="" class="border">
+                    </figure>
+                    <figure class="mt-5">
+                      <figcaption class="fw-bold h3">knop zonder tekst</figcaption>
+                      <img src="../img/STT-knop.PNG" alt="" class="border">
+                    </figure>
+                  </li>
+                </ul>
+
+                <!-- h:  -->
+                <h4 class="mt-5">Woensdag: </h4>
+                <ul>
+                  <li class="">
+                    <p class="h4 mt-3">mail provider voor Auth0 geactiveerd</p>
+                    <p>Om een Nederlandse layout voor alle emails die door Auth0 gaan doorgestuurd worden te hebben moest ik aantal aanpassingen (de SMTP server activeren) in plesk server te maken om onze mail provider op Auth0 te kunnen activeren en gebruiken. Ik heb de aanpassingen gedaan en moest wachten tot het aantwoord van mijn mentor voor een opgestuurde email, pas daarna kon ik verder met testing gaan.</p>
+                  </li>
+                  <li class="">
+                    <p class="h4 mt-5">beginnen met implementatie van "mijn herdenkingsruimten" pagina
+                    </p>
+                  </li>
+                </ul>
+
+                <!-- h:  -->
+                <h4 class="mt-5">Donderdag: </h4>
+                <ul>
+                  <li class="">
+                    <p class="h4 mt-3">deactivatie van de SMTP server op Plesk</p>
+                    <p>Door het activeren van SMTP Server was de Mail service weggegaan. Momenteel is niet de prioriteit om het te activeren.</p>
+                  </li>
+                  <li class="">
+                    <p class="h4 mt-5">implementatie van "mijn herdenkingsruimten" pagina voltooid</p>
+                    <img src="../img/mijn-herdenkingsruimtes-pagina.PNG" alt="" style="width: 1000px;" class="border">
+                  </li>
+                  <li class="">
+                    <p class="h4 mt-5">het aanpassen van 404-pagina design</p>
+                    <img src="../img/404-design-aanpassen.PNG" alt="" class="border">
+                  </li>
+                </ul>
+
+                <!-- h:  -->
+                <h4 class="mt-5">Vrijdag: </h4>
+                <ul>
+                  <li class="">
+                    <p class="h4 mt-3">Mijn herdenkingsruimten-pagina responsief gemaakt</p>
+                    <figure class="mb-5">
+                      <figcaption class="fw-bold h3">op mobile</figcaption>
+                      <img src="../img/mobile-schema.PNG" alt="" class="border">
+                    </figure>
+                    <figure class="mt-5">
+                      <figcaption class="fw-bold h3">op tablet</figcaption>
+                      <img src="../img/tablet-schema.PNG" alt="" class="border">
+                    </figure>
+                    <figure class="mt-5">
+                      <figcaption class="fw-bold h3">op grote scherm</figcaption>
+                      <img src="../img/lg-schema.PNG" alt="" class="border">
+                    </figure>
+                  </li>
+                  <li class="">
+                    <p class="h4 mt-5">paginatie component gemaakt</p>
+                    <p>Paginatie aan herdenkingsruimten-pagina toegevoegd maar zal aangepast worden volgens het design.</p>
+                    <p>Op elk pagina zal 6 herdenkingsruimten kaartjes zichtbaar worden.</p>
+                    <figure class="mt-5">
+                      <figcaption class="fw-bold h3">Eerste pagina</figcaption>
+                      <img src="../img/paginatie-1.PNG" alt="" style="width: 1000px;" class="border">
+                    </figure>
+                    <figure class="mt-5">
+                      <figcaption class="fw-bold h3">Tweede pagina</figcaption>
+                      <img src="../img/paginatie-2.PNG" alt="" style="width: 1000px;" class="border">
+                    </figure>
+                  </li>
+                  <li class="">
+                    <p class="h4 mt-5">spinner component gemaakt</p>
+                    <p>Spinner zal gezien worden wanneer het loaden van de pagina langzaam zou zijn.</p>
+                    <img src="" alt="">
+                  </li>
+                  <li class="">
+                    <p class="h4 mt-3">implementatie van 404-pagina</p>
+                    <img src="../img/404-implementatie.PNG" alt="" style="width: 1000px;" class="border">
+                  </li>
+                </ul>
+
+
+              </div>
+              <!-- b: Start Blog Navigation -->
+              <div class="blog-navigation">
+                <div class="blog-navigation-left">
+                  <a class="prev-post" href="week13.html">Prev Post</a>
+                </div>
+                <div class="blog-navigation-right">
+                  <!-- <a class="next-post" href="week15.html">Next Post</a> -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Start Footer -->
+      <footer id="footer" role="contentinfo">
+        <!-- Start Footer Bottom -->
+        <div class="footer-bottom">
+          <div class="container">
+            <div class="row">
+              <div class="col s12">
+                <div class="footer-inner">
+                  <!-- Bottom to Up Btn -->
+                  <button class="btn-floating btn-large up-btn"><i class="mdi-navigation-expand-less"></i></button>
+                  <!-- <p class="design-info">Designed By <a href="http://www.markups.io/">MarkUps.io</a></p> -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </main>
+  </div>
+  <!-- jQuery Library -->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <!-- Materialize js -->
+  <script type="text/javascript" src="../js/materialize.min.js"></script>
+  <!-- Skill Progress Bar -->
+  <script src="../js/appear.min.js" type="text/javascript"></script>
+  <script src="../js/pro-bars.min.js" type="text/javascript"></script>
+  <!-- Owl slider -->
+  <script src="../js/owl.carousel.min.js"></script>
+  <!-- Mixit slider  -->
+  <script src="https://cdn.jsdelivr.net/jquery.mixitup/latest/jquery.mixitup.min.js"></script>
+  <!-- counter -->
+  <script src="../js/waypoints.min.js"></script>
+  <script src="../js/jquery.counterup.min.js"></script>
+
+  <!-- Custom Js -->
+  <script src="../js/custom.js"></script>
+</body>
+
+</html>
