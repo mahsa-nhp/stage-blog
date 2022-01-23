@@ -98,42 +98,79 @@
                   <!-- <img src="../img/blog3.jpg"> -->
                 </div>
                 <h2 style="margin-bottom: 0;">Reflectieverslag, week 14</h2>
-                <small>20/12/2021 - 24/12/2021</small>
-                <p style="margin-top: 10px; text-align: justify;"> Deze week ging het vrij goed. Ik was de hele week bezig met implementatie van pagina's. Het was een leerzame week. Ik heb meer betrokken met react en componenten die in verschillende pagina's opnieuw gebruikt kunnen worden. Dus het is niet meer nodig om een funcie in verschillende pagina's opnieuw te schrijven waarvoor een developer veel tijd kan besparen en aan de andere kant de snelheid van de website zou verhogen door het minder herhalen van dezelfde codes.
-                </p>
+                <small>10/01/2022 - 14/01/2022</small>
+                <p style="margin-top: 10px; text-align: justify;">Deze week was een productieve week. Ik heb al mijn kennis van bijna 4 maanden gebruikt om de manier van mijn voorgeschreven codes revolutionar te veranderen en te verbeteren.</p>
+               <p>Het was een drukke week geweest. Elke avond na het werk hadden we een vergadering met onze mentoren.</p>
                 
               
                 <p class="fw-bold">Volgende taken heb ik gedaan:</p>
                 <ul>
-                  
+                  <li>een betere oplossing voor verborgen title onder sticky navbar</li>
+                  <li>Authenticatie pagina aangepast en ook responsief voor alle devices</li>
+                  <li>zoeken hoe Sendinblue SMTP account te activeren</li>
+                  <li>onderzoek hoe zoekbalk met een filter kunnen te combineren</li>
+                  <li>implementatie zoek-resultaten pagina</li>
+                  <li>implementaie "beheer pagina's" pagina</li>
+                  <li>verbetering van foto-view en kleuren</li>
+                  <li>implementatie herdenkingsruimtes</li>
+                  <li>onderzoek voor hoe firstname en lastname kunnen concateneren om in een query kunnen te gebruiken</li>
+                  <li>verbetering van verchillelnde sections in elk pagina</li>
+                  <li>"beheer pagina's" knop toegevoegd in de navbar</li>
+                  <li>test van funcionaliteit</li>
+                  <li>media query px's verbeterd</li>
+                  <li>homepagina helemaal verbeterd en volledig responsief voor alle devices</li>
                 </ul>
 
                 <!-- h:  -->
                 <h4 class="" style="margin-top: 110px;">Maandag: </h4>
                 <ul>
                   <li class="">
-                    <p class="h4 mt-3">design voor debug van het verstoppende titels onder sticky navbar (algemene voorwaarden, privacybeleid- en FAQ-pagina's)</p>
-                    <p>3 ideeën op miro gezet dan kunnen mijn mentors gemakkelijker beslissen welk idee zou beter zijn. 
-                    </p>
-                    <img src="../img/drie-ideen.PNG" alt="" class="border">
+                    <p class="h4 mt-3">een betere oplossing voor verborgen title onder sticky navbar</p>
+                    <p>Er was een probleem. Als men op een title clickt werd redirected naar de uitleg van de title maar de title ging onder sticky navbar staan. Als tijdelijke oplossing had ik vorige keer een foto gezet boven elk title. Zo was er voldoende plaats tussen de navbar en de title en elk title kreeg een foto dat eigenlijk niet nodig was en aan de andere kant gaat de website door veel onnodige foto's zwaar worden) Met de nieuwe oplossing zijn de foto's verwijderd en er is ook voldoende plaats tussen elk section.</p>
+                  </li>
+                  <li class="">
+                    <p class="h4 mt-3">Authenticatie pagina aangepast en ook responsief voor alle devices</p>
+                    <figure class="mb-5">
+                      <figcaption class="fw-bold h3">web versie</figcaption>
+                      <img src="../img//authenticatie-pagina-web.PNG" alt="" class="border" style="width: 800px;">
+                    </figure>
+                    <figure class="mb-5">
+                      <figcaption class="fw-bold h3">mobile versie</figcaption>
+                      <img src="../img/authenticatie-pagina-mobile.PNG" alt="" class="border" style="width: 300px;">
+                    </figure>
+                  </li>
+                  <li class="">
+                    <p class="h4 mt-3">zoeken hoe Sendinblue SMTP account te activeren</p>
+                    <p>SMTP mail provider op Auth0 weer geactiveerd maar kreeg een error voor foute username (omdat in de dashbord van Sendinblue geen vaste username aanwezig was). Aangezien het een lage perioriteit heeft zal mijn mentor zelf een oplossing (in zijn perioriteit) ervoor vinden.</p>
+                  </li>
+                  <li class="">
+                    <p class="h4 mt-3">implementatie herdenkingsruimtes beginnen</p>
                   </li>
                 </ul>
                 <!-- h:  -->
                 <h4 class="mt-5">Dinsdag: </h4>
                 <ul>
                   <li class="">
-                    <p class="h4 mt-3">test van functionaliteit op jira met screenshot en comment</p>
+                    <p class="h4 mt-3">onderzoek hoe zoekbalk met een filter kunnen te combineren</p>
+                    <p>Momenteel is niet geimplementeerd geworden.</p>
                   </li>
                   <li class="">
-                    <p class="h4 mt-5">scroll naar boven knop aangepast</p>
-                    <p> Ipv een knop met een text heb ik het met een icon met top-arrow gemaakt. voor de tooltip heb ik bootstrap-react overlay gebruikt.</p>
+                    <p class="h4 mt-3">implementatie zoek-resultaten pagina</p>
+                    <p>Deze pagina gaat zichtbar worden nadat men een zoek term gaat toevoegen in de "alle herdenkingsruimtes" pagina.</p>
                     <figure class="mb-5">
-                      <figcaption class="fw-bold h3">knop met een tekst</figcaption>
-                      <img src="../img/terug boven-knop.PNG" alt="" class="border">
+                      <figcaption class="fw-bold h3">mobile versie</figcaption>
+                      <img src="../img/zoekresultatien-pagina.PNG" alt="" class="border" style="width: 800px;">
                     </figure>
-                    <figure class="mt-5">
-                      <figcaption class="fw-bold h3">knop zonder tekst</figcaption>
-                      <img src="../img/STT-knop.PNG" alt="" class="border">
+                  </li>
+                  <li class="">
+                    <p class="h4 mt-3">implementaie "beheer pagina's" pagina</p>
+                    <figure class="mb-5">
+                      <figcaption class="fw-bold h3">oude versie</figcaption>
+                      <img src="../img/Mijn paginas.PNG" alt="" class="border" style="width: 800px;">
+                    </figure>
+                    <figure class="mb-5">
+                      <figcaption class="fw-bold h3">nieuwe versie (met nieuwe hover effect)</figcaption>
+                      <img src="../img/beheer pagina.PNG" alt="" class="border" style="width: 800px;">
                     </figure>
                   </li>
                 </ul>
@@ -142,8 +179,23 @@
                 <h4 class="mt-5">Woensdag: </h4>
                 <ul>
                   <li class="">
-                    <p class="h4 mt-3">mail provider voor Auth0 geactiveerd</p>
-                    <p>Om een Nederlandse layout voor alle emails die door Auth0 gaan doorgestuurd worden te hebben moest ik aantal aanpassingen (de SMTP server activeren) in plesk server te maken om onze mail provider op Auth0 te kunnen activeren en gebruiken. Ik heb de aanpassingen gedaan en moest wachten tot het aantwoord van mijn mentor voor een opgestuurde email, pas daarna kon ik verder met testing gaan.</p>
+                    <p class="h4 mt-3">verbetering van foto-view en kleuren</p>
+                  </li>
+                  <li class="">
+                    <p class="h4 mt-3">implementatie herdenkingsruimte voltooid</p>
+                    <figure class="mb-5">
+                      <figcaption class="fw-bold h3">oude versie</figcaption>
+                      <img src="../img/alle-herdenkingsruimtes.PNG" alt="" class="border" style="width: 800px;">
+                    </figure>
+                    <figure class="mb-5">
+                      <figcaption class="fw-bold h3">nieuwe versie</figcaption>
+                      <img src="../img/alle-herdenk.PNG" alt="" class="border" style="width: 800px;">
+                    </figure>
+                    
+                  </li>
+                  <li class="">
+                    <p class="h4 mt-5">onderzoek voor hoe firstname en lastname kunnen concateneren om in een query kunnen te gebruiken</p>
+                    <p>Probleem met concatenatie van firstname en lastname door een query. Ik heb veel gezocht om het te oplossen maar het lukte niet. Daarvoor heb ik voorgesteld dat we een extra column in database gaan maken en concatenatie op server te maken ipv via een query, dan kunnen we het later gebruiken.</p>
                   </li>
                 </ul>
 
@@ -151,8 +203,26 @@
                 <h4 class="mt-5">Donderdag: </h4>
                 <ul>
                   <li class="">
-                    <p class="h4 mt-3">deactivatie van de SMTP server op Plesk</p>
-                    <p>Door het activeren van SMTP Server was de Mail service weggegaan. Momenteel is niet de prioriteit om het te activeren.</p>
+                    <p class="h4 mt-3">navbar verbeteerd, ook responsief voor alle devices</p>
+                    <figure class="mb-5">
+                      <figcaption class="fw-bold h3">web versie</figcaption>
+                      <img src="../img/nav.PNG" alt="" class="border" style="width: 800px;">
+                    </figure>
+                    <figure class="mb-5">
+                      <figcaption class="fw-bold h3">mobile versie</figcaption>
+                      <img src="../img/nav-moviles-responsief.PNG" alt="" class="border" style="width: 300px;">
+                      <img src="../img/nav-mobile-res-2.PNG" alt="" class="border" style="width: 300px;">
+                    </figure>
+                  </li>
+                  <li class="">
+                    <p class="h4 mt-3">"beheer pagina's" knop toegevoegd in de navbar</p>
+                    <img src="../img/beheer-in-nav.PNG" alt="" class="border" style="width: 800px;">
+                  </li>
+                  <li class="">
+                    <p class="h4 mt-5">beginnen met verbetering van homepagina</p>
+                  </li>
+                  <li class="">
+                    <p class="h4 mt-3">test van funcionaliteit</p>
                   </li>
                 </ul>
 
@@ -160,12 +230,49 @@
                 <h4 class="mt-5">Vrijdag: </h4>
                 <ul>
                   <li class="">
-                    <p class="h4 mt-3">implementatie van 404-pagina</p>
-                    <img src="../img/404-implementatie.PNG" alt="" style="width: 1000px;" class="border">
+                    <p class="h4 mt-5">hero section verbeterd ok responsief voor alle divices</p>
+                    <p>In eerste versie heeft de zoekbalk hetzelfde design maar was vervormd en de knoppen hadden niet gelijk hetzelfde design en de mobile versie had geen mooie view.</p>
+                    <figure class="mb-5">
+                      <figcaption class="fw-bold h3">web versie</figcaption>
+                      <img src="../img/hero-verbeterd.PNG" alt="" class="border" style="width: 800px;">
+                    </figure>
+                    <figure class="mb-5">
+                      <figcaption class="fw-bold h3">mobile versie</figcaption>
+                      <img src="../img/hero-mobile.PNG" alt="" class="border" style="width: 300px;">
+                    </figure>
+                  </li>
+                  <li class="">
+                    <p class="h4 mt-3">correcte px's voor media queries gevonden</p>
+                    <p>Om een website responsief te kunnen maken mogen we "media queries gebruiken. Voor elk pagina probeerde ik om het ook voor alle divices responsief te maken, maar het lukte niet altijd bij één px. Bvb. voor mobile versie (landscape phones) gebruikte ik <kbd class="bg-primary">@media (min-width: 576px) and (max-width: 767px){}</kbd> maar voor 575px kon geen correcte design ontvangen (omdat het een oude manier van media query schrijven was) en volgens mijn onderzoek had het geen probleem. Ik mocht ook niet <kbd class="bg-danger">@media (min-width: >=575px) and (max-width: 767px){}</kbd> schrijven.</p>
+                    <p>Uiteindelijk ben ik tot deze idee gekomen om media queries zo te schrijven: </p>
+                    <pre><p>
+                          /* portrait phones */
+                          @media (max-width: <span class="text-danger">575px</span>) {    
+                          }
+
+                          /* landscape phones */
+                          @media (min-width: <span class="text-danger">575px</span>) and (max-width: <span class="text-primary">767px</span>){
+                          }
+
+                          /* tablets */
+                          @media (min-width: <span class="text-primary">767px</span>) and (max-width: <span class="text-success">991px</span>){ 
+                          }
+
+                          /* large */
+                          @media (min-width: <span class="text-success">991px</span>) and (max-width: <span class="text-info">1200px</span>) {
+                          }
+
+                          /* xlarge <kbd> <code><</code>14" </kbd> */
+                          @media(min-width: <span class="text-info">1200px</span>) and (max-width: 1490px) {
+                          }
+                    </p></pre>
+                    <p class="fw-bold">Het probleem werd opgelost. </p>
+                    <p>Daarna met deze oplossing heb ik alle media queries (voor alle pagina's) aangepast.</p>
+                  </li>
+                  <li class="">
+                    <p class="h4 mt-3">de hele  <a href="https://vivamemoria.be/" target="_blank" class="text-decoration-none">homepagina</a> (alle aparte sections) verbeterd en responsief gemaakt voor alle devices.</p>
                   </li>
                 </ul>
-
-
               </div>
               <!-- b: Start Blog Navigation -->
               <div class="blog-navigation">
@@ -173,7 +280,7 @@
                   <a class="prev-post" href="week15.html">Prev Post</a>
                 </div>
                 <div class="blog-navigation-right">
-                  <!-- <a class="next-post" href="week17.html">Next Post</a> -->
+                  <a class="next-post" href="week17.html">Next Post</a>
                 </div>
               </div>
             </div>
